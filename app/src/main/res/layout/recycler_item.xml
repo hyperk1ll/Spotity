@@ -16,7 +16,7 @@
         android:layout_height="36dp"
         android:id="@+id/icon_view"
         android:layout_centerVertical="true"
-        android:src="@drawable/music_icon"/>
+        android:src="@drawable/ic_baseline_music_note_24"/>
 
     <TextView
         android:layout_width="match_parent"

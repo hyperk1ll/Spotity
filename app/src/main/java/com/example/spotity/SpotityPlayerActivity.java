@@ -127,6 +127,7 @@ public class SpotityPlayerActivity extends AppCompatActivity {
         if(MusicMediaPlayer.currentIndex== songsList.size()-1)
             return;
         MusicMediaPlayer.currentIndex +=1;
+        x = 0;
         mediaPlayer.reset();
         setResourcesWithMusic();
 
@@ -136,6 +137,7 @@ public class SpotityPlayerActivity extends AppCompatActivity {
         if(MusicMediaPlayer.currentIndex== 0)
             return;
         MusicMediaPlayer.currentIndex -=1;
+        x = 0;
         mediaPlayer.reset();
         setResourcesWithMusic();
     }
